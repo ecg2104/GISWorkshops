@@ -144,6 +144,20 @@ Click on “New Print Layout” ![layout] to create a map. Enter a Title:
 
 ![housingUnitCHange]
 
+Click on OK and the layout window will pop out.
+Click on “add a new map” ![newlayout] and draw a frame filling the page.  And the image will appear in the frame you draw.
+
+![Composer]
+
+Insert a title, north arrow, scale bar, and legend.
+
+![map2]
+
+Finally, add a text box to the lower portion of your map indicating your data sources, your name and date.
+
+Export your map to pdf by clicking “export as pdf” ![pdf]
+
+
 
 [NYCopendata]: IntroPics/NYCopendata.png
 [housingdb]: IntroPics/housingdb.png
@@ -180,7 +194,7 @@ Click on “New Print Layout” ![layout] to create a map. Enter a Title:
 [savemap]: IntroPics/savemap.jpg
 [layout]: IntroPics/layout.jpg
 [housingUnitCHange]: IntroPics/housingUnitCHange.png
-[NTA]: IntroPics/NTA.png
-[NTA]: IntroPics/NTA.png
-[NTA]: IntroPics/NTA.png
-[NTA]: IntroPics/NTA.png
+[newlayout]: IntroPics/newlayout.jpg
+[Composer]: IntroPics/Composer.png
+[map2]: IntroPics/map2.png
+[pdf]: IntroPics/pdf.jpg
