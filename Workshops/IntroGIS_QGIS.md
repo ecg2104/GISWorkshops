@@ -140,6 +140,10 @@ Save the project with the name “NTA_Housingchange” in the directory when you
 
 ![savemap]
 
+Click on “New Print Layout” ![layout] to create a map. Enter a Title:
+
+![housingUnitCHange]
+
 
 [NYCopendata]: IntroPics/NYCopendata.png
 [housingdb]: IntroPics/housingdb.png
@@ -173,9 +177,9 @@ Save the project with the name “NTA_Housingchange” in the directory when you
 [symbology]: IntroPics/symbology.png
 [symbologyclass]: IntroPics/symbologyclass.png
 [map]: IntroPics/map.png
-[savemap]: IntroPics/savemap.png
-[NTA]: IntroPics/NTA.png
-[NTA]: IntroPics/NTA.png
+[savemap]: IntroPics/savemap.jpg
+[layout]: IntroPics/layout.jpg
+[housingUnitCHange]: IntroPics/housingUnitCHange.png
 [NTA]: IntroPics/NTA.png
 [NTA]: IntroPics/NTA.png
 [NTA]: IntroPics/NTA.png
