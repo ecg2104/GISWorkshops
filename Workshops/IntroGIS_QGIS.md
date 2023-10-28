@@ -5,4 +5,4 @@ York City neighborhoods since 2010.
 
 The housing data is available publically from the NYC Data Clearinghouse [NYCOpenData ](https://opendata.cityofnewyork.us)
 
-![NYCopendata]
+![GISWorkshops/Workshops/IntroPics/NYCopendata]
