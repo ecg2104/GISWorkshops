@@ -51,7 +51,7 @@ There is a variety of information for each tract. For our purposes the three imp
 
 Next, you will add the housing unit data.
 
-CSV files may not add properly from the browser panel so instead, use the data source manager and choose the “Delimited text” option. Specify that the table is a CSV and choose “no geography.” The dialog will provide a preview of the data at the bottom:
+CSV files may not add properly from the browser panel so instead, use the data source manager ![DSMButton] and choose the “Delimited text” option. Specify that the table is a CSV and choose “no geography.” The dialog will provide a preview of the data at the bottom:
 
 ![dsmWIndow]
 
@@ -168,6 +168,7 @@ Export your map to pdf by clicking “export as pdf” ![pdf]
 [geopackage]: IntroPics/geopackage.png
 [openAtt]: IntroPics/openAtt.png
 [AttributeTable]: IntroPics/AttributeTable.png
+[DSMButton]: IntroPics/DSMButton.png
 [dsmWIndow]: IntroPics/dsmWIndow.png
 [string]: IntroPics/string.png
 [csvattributes]: IntroPics/csvattributes.png
