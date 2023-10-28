@@ -7,6 +7,9 @@ The housing data is available publically from the NYC Data Clearinghouse [NYCOpe
 
 ![NYCopendata]
 
+Specifically, this data is provided by the NYC Department of City Planning from their housing 
+database. You can access the data at the census tract level from [this link](https://data.cityofnewyork.us/Housing-Development/Housing-Database-by-2020-Census-Tract/nahe-je7c)
+
 
 
 
