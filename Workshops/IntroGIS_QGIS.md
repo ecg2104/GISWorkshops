@@ -75,7 +75,70 @@ In the properties dialog select the Joins tab:
 
 Click the add join button ![addjoin]. Choose the csv as the join layer, select the appropriate join field and make sure the “custom field name prefix” field is blank:
 
+![addjoinbox]
 
+Click OK. Open the geopackage attribute table again and see that the data joined into the table:
+
+![AttributeTablejoin]
+
+Since the table join is stored in memory, it is recommended that you make the join permanent by exporting the geographies to a new layer. Right click on the track layer entry and choose export>Save features as:
+
+![exportlayer]
+
+Save the file as a geopackage to your working directory with the name TractsWIthHousingData.gpkg make sure the CRS is EPSG:2263:
+
+![exportdialog]
+
+The new layer should appear in the map window. At this point, we no longer need the original geopackage or csv. You can remove them by right-clicking in the layers panel and choosing “Remove Layer”
+The next step is to generate the NTA boundaries by using information in the attribute table. You can construct the NTAs by merging the geographies of all the tracts for the same NTA. The GIS term for this transformation is “Dissolve”.
+There are several dissolve functions available in QGIS. The one you will use is called “Aggregate.” To find it open the toolbox under the processing menu:
+
+![openprocessing]
+
+The processing panel will open, search dissolve in the search bar. You should get several results, choose “aggregate”:
+
+![Searchdissolve]
+
+The aggregate tool will allow you to make arithmetic calculations on the variables for the merged tracts. Important as we will want to sum the housing unit fields. In the Aggregate dialog, choose NTA2020 as the group field. In the aggregate controls choose “first” for the NTA2020 fields and the NTAName fields. More importantly, choose “sum” for all of the housing unit total fields (comp20**). You don’t need to
+keep the other fields and they may be deleted using the delete field button ![deletefields]. Save the output file to the working directory with an appropriate file name:
+
+![aggregate]
+
+The output layer should appear in the map window. The boundaries will now represent the NTAs :
+
+![NTAs]
+
+And the attribute table will have the net unit change for each year:
+
+![attrinuteNTAs]
+
+Next, you will calculate the total net housing unit change for the 12-year period. You can do this using the Field calculator tool. Click the field calculator button ![fieldcalculator] in the attribute table. In the dialog you will want to “create a new field” and make it an integer field named “TotalUnits”. You can use the expression window to populate the new field with the sum of the 12 annual columns. You can access the fields by expanding the “fields and values” menu in the center window. Sum them all together using the + operator as seen here:
+
+![calculation]
+
+Click OK. Inspect the results in the attribute table:
+
+![totalunits]
+
+When using the field calculator QGIS automatically starts an editing session for the layer. End the editing session by depressing the edit button ![stopEdits].
+
+Now you can make a “choropleth” map of the housing unit totals.
+Remove the layer for the tracts.
+Open the layer properties for the NTA layers. Choose the symbology properties. Choose a “graduated” color scheme and select TotalUnits as the value:
+
+![symbology]
+
+Now you can select the classification scheme and color palette for the map:
+
+![symbologyclass]
+
+Choose “classify” and OK to inspect the results:
+
+![map]
+
+Save the project with the name “NTA_Housingchange” in the directory when you are satisfied with your output.
+
+![savemap]
 
 
 [NYCopendata]: IntroPics/NYCopendata.png
@@ -93,8 +156,24 @@ Click the add join button ![addjoin]. Choose the csv as the join layer, select t
 [properties]: IntroPics/properties.png
 [join]: IntroPics/join.png
 [addjoin]: IntroPics/addjoin.png
-[NTA]: IntroPics/NTA.png
-[NTA]: IntroPics/NTA.png
+[addjoinbox]: IntroPics/addjoinbox.png
+[AttributeTablejoin]: IntroPics/AttributeTablejoin.png
+[exportlayer]: IntroPics/exportlayer.png
+[exportdialog]: IntroPics/exportdialog.png
+[openprocessing]: IntroPics/openprocessing.png
+[aggregate]: IntroPics/aggregate.png
+[deletefields]: IntroPics/deletefields.png
+[Searchdissolve]: IntroPics/Searchdissolve.png
+[NTAs]: IntroPics/NTAs.png
+[attrinuteNTAs]: IntroPics/attrinuteNTAs.png
+[fieldcalculator]: IntroPics/fieldcalculator.png
+[calculation]: IntroPics/calculation.png
+[totalunits]: IntroPics/totalunits.png
+[stopEdits]: IntroPics/stopEdits.png
+[symbology]: IntroPics/symbology.png
+[symbologyclass]: IntroPics/symbologyclass.png
+[map]: IntroPics/map.png
+[savemap]: IntroPics/savemap.png
 [NTA]: IntroPics/NTA.png
 [NTA]: IntroPics/NTA.png
 [NTA]: IntroPics/NTA.png
