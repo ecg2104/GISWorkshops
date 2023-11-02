@@ -162,8 +162,8 @@ Export your map to pdf by clicking “export as pdf” ![pdf]
 [NYCopendata]: Images/IntroGIS_QGIS_Exercise/NYCopendata.png
 [housingdb]: Images/IntroGIS_QGIS_Exercise/housingdb.png
 [unitscsv]: Images/IntroGIS_QGIS_Exercise/unitscsv.png
-[tracts]: Images/IntroGIS_QGIS_Exercise/tract[csvattributes]s.png
-[NTA]: Images/IntroGIS_QGIS_Exercis/eNTA.png
+[tracts]: Images/IntroGIS_QGIS_Exercise/tracts.png
+[NTA]: Images/IntroGIS_QGIS_Exercise/NTA.png
 [geodatatracts]: Images/IntroGIS_QGIS_Exercise/geodatatracts.png
 [geopackage]: Images/IntroGIS_QGIS_Exercise/geopackage.png
 [openAtt]: Images/IntroGIS_QGIS_Exercise/openAtt.png
