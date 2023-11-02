@@ -26,7 +26,7 @@ For this exercise we will use a neighborhood definition called “Neighborhood T
 ![NTA]
 
 You will use QGIS to create NTA geographic definitions and housing unit totals for the entire city.
-As previously stated, census tracts are determined by the Census Department and they produce authoritative boundaries for them on a regular basis. There are also a variety of sources of derivative boundary definitions for these tracts. You will use a modified tract file for! NYC that can be found at the Geodata@columbia home page and download at [this link](https://github.com/ecg2104/GISWorkshops/raw/main/data/IntroGIS_QGIS_Exercise/cul_nyc_tracts_2020.gpkg)
+As previously stated, census tracts are determined by the Census Department and they produce authoritative boundaries for them on a regular basis. There are also a variety of sources of derivative boundary definitions for these tracts. You will use a modified tract file for NYC that can be found at the Geodata@columbia home page and download at [this link](https://github.com/ecg2104/GISWorkshops/raw/main/data/IntroGIS_QGIS_Exercise/cul_nyc_tracts_2020.gpkg)
 
 ![geodatatracts]
 
