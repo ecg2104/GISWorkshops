@@ -12,7 +12,7 @@ database. You can access the data at the census tract level from [this link](htt
 
 ![housingdb]
 
-The table from this page provides the net number of housing units annually for every census tract for every year from 210 to 2022. We can use QGIS to manipulate and map this data for the exercise. However, there are a few problems with this table. First, there is no functional geography for the tracts – the boundaries are not defined. You will have to find those geographies elsewhere (we will come back to this shortly). Second, the data download (as of the writing of this exercise) is not formatted and cleaned appropriately. Much of the needed cleaning is out of the scope of this exercise, so [we have provided you with a modified and cleaned version of the data in the exercise files]([url](https://github.com/ecg2104/GISWorkshops/blob/main/data/IntroGIS_QGIS_Exercise/HousingUnitsTracts2010_22.csv))
+The table from this page provides the net number of housing units annually for every census tract for every year from 210 to 2022. We can use QGIS to manipulate and map this data for the exercise. However, there are a few problems with this table. First, there is no functional geography for the tracts – the boundaries are not defined. You will have to find those geographies elsewhere (we will come back to this shortly). Second, the data download (as of the writing of this exercise) is not formatted and cleaned appropriately. Much of the needed cleaning is out of the scope of this exercise, so [we have provided you with a modified and cleaned version of the data in the exercise files](https://github.com/ecg2104/GISWorkshops/blob/main/data/IntroGIS_QGIS_Exercise/HousingUnitsTracts2010_22.csv)
 
 ![unitscsv]
 
@@ -26,7 +26,7 @@ For this exercise we will use a neighborhood definition called “Neighborhood T
 ![NTA]
 
 You will use QGIS to create NTA geographic definitions and housing unit totals for the entire city.
-As previously stated, census tracts are determined by the Census Department and they produce authoritative boundaries for them on a regular basis. There are also a variety of sources of derivative boundary definitions for these tracts. You will use a modified tract file for! NYC that can be found at the Geodata@columbia home page and download at [this link]([url](https://github.com/ecg2104/GISWorkshops/raw/main/data/IntroGIS_QGIS_Exercise/cul_nyc_tracts_2020.gpkg))
+As previously stated, census tracts are determined by the Census Department and they produce authoritative boundaries for them on a regular basis. There are also a variety of sources of derivative boundary definitions for these tracts. You will use a modified tract file for! NYC that can be found at the Geodata@columbia home page and download at [this link](https://github.com/ecg2104/GISWorkshops/raw/main/data/IntroGIS_QGIS_Exercise/cul_nyc_tracts_2020.gpkg)
 
 ![geodatatracts]
 
@@ -163,13 +163,13 @@ Export your map to pdf by clicking “export as pdf” ![pdf]
 [housingdb]: Images/IntroGIS_QGIS_Exercise/housingdb.png
 [unitscsv]: Images/IntroGIS_QGIS_Exercise/unitscsv.png
 [tracts]: Images/IntroGIS_QGIS_Exercise/tract[csvattributes]s.png
-[NTA]: Images/IntroGIS_QGIS_ExerciseNTA.png
-[geodatatracts]: Images/IntroGIS_QGIS_Exercisegeodatatracts.png
-[geopackage]: Images/IntroGIS_QGIS_Exercisegeopackage.png
-[openAtt]: Images/IntroGIS_QGIS_ExerciseopenAtt.png
-[AttributeTable]: Images/IntroGIS_QGIS_ExerciseAttributeTable.png
-[DSMButton]: Images/IntroGIS_QGIS_ExerciseDSMButton.png
-[dsmWIndow]: Images/IntroGIS_QGIS_ExercisedsmWIndow.png
+[NTA]: Images/IntroGIS_QGIS_Exercis/eNTA.png
+[geodatatracts]: Images/IntroGIS_QGIS_Exercise/geodatatracts.png
+[geopackage]: Images/IntroGIS_QGIS_Exercise/geopackage.png
+[openAtt]: Images/IntroGIS_QGIS_Exercise/openAtt.png
+[AttributeTable]: Images/IntroGIS_QGIS_Exercise/AttributeTable.png
+[DSMButton]: Images/IntroGIS_QGIS_Exercise/DSMButton.png
+[dsmWIndow]: Images/IntroGIS_QGIS_Exercise/dsmWIndow.png
 [string]: Images/IntroGIS_QGIS_Exercise/string.png
 [csvattributes]: Images/IntroGIS_QGIS_Exercise/csvattributes.png
 [properties]: Images/IntroGIS_QGIS_Exercise/properties.png
