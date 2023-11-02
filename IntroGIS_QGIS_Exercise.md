@@ -12,7 +12,7 @@ database. You can access the data at the census tract level from [this link](htt
 
 ![housingdb]
 
-The table from this page provides the net number of housing units annually for every census tract for every year from 210 to 2022. We can use QGIS to manipulate and map this data for the exercise. However, there are a few problems with this table. First, there is no functional geography for the tracts – the boundaries are not defined. You will have to find those geographies elsewhere (we will come back to this shortly). Second, the data download (as of the writing of this exercise) is not formatted and cleaned appropriately. Much of the needed cleaning is out of the scope of this exercise, so [we have provided you with a modified and cleaned version of the data in the exercise files](https://github.com/ecg2104/GISWorkshops/blob/main/data/IntroGIS_QGIS_Exercise/HousingUnitsTracts2010_22.csv)
+The table from this page provides the net number of housing units annually for every census tract for every year from 2010 to 2022. We can use QGIS to manipulate and map this data for the exercise. However, there are a few problems with this table. First, there is no functional geography for the tracts – the boundaries are not defined. You will have to find those geographies elsewhere (we will come back to this shortly). Second, the data download (as of the writing of this exercise) is not formatted and cleaned appropriately. Much of the needed cleaning is out of the scope of this exercise, so [we have provided you with a modified and cleaned version of the data in the exercise files](https://github.com/ecg2104/GISWorkshops/blob/main/data/IntroGIS_QGIS_Exercise/HousingUnitsTracts2010_22.csv)
 
 ![unitscsv]
 
