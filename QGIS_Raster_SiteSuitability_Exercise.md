@@ -8,16 +8,21 @@ You will be creating a model with four inputs: Federally owned land, distance to
 
 We will look for areas on relatively flat ground.  Add uselevikm to QGIS:
 
+![Elevation]
 
 This is a DEM of US elevation at a 1KM resolution (actually closer to 933 meters).  This is the resolution that you will use for all the rasters we generate today.
 
 Many of the raster tools we will be using can be found in the Raster Analysis tools.  In the Processing toolbar, open the Slope tool
 
+![sloptool]
 
 Use z factor=1.  Save output as USSlope:
 
+![slope2]
+
 Here is the output:
 
+![slope3]
  
 ## Interpolation
 
@@ -80,6 +85,34 @@ Add the four reclass rasters and apply weights as you see appropriate.  Here, I 
 
 In this case, output values range from 5 to 37:
 
+![finavValue]
 
+[Elevation]: Images/QGIS_Raster_SiteSuitability_Exercise/Elevation.png
+[sloptool]: Images/QGIS_Raster_SiteSuitability_Exercise/sloptool.png
+[slope2]: Images/QGIS_Raster_SiteSuitability_Exercise/slope2.png
+[slope3]: Images/QGIS_Raster_SiteSuitability_Exercise/slope3.png
+[wind1]: Images/QGIS_Raster_SiteSuitability_Exercise/wind1.png
+[idw]: Images/QGIS_Raster_SiteSuitability_Exercise/idw.png
+[idw2]: Images/QGIS_Raster_SiteSuitability_Exercise/idw2.png
+[idw3]: Images/QGIS_Raster_SiteSuitability_Exercise/idw3.png
+[transitlines]: Images/QGIS_Raster_SiteSuitability_Exercise/transitlines.png
+[rasterize]: Images/QGIS_Raster_SiteSuitability_Exercise/rasterize.png
+[transitlines2]: Images/QGIS_Raster_SiteSuitability_Exercise/transitlines2.png
+[prox1]: Images/QGIS_Raster_SiteSuitability_Exercise/prox1.png
+[TransDist]: Images/QGIS_Raster_SiteSuitability_Exercise/TransDist.png
+[distc]: Images/QGIS_Raster_SiteSuitability_Exercise/distc.png
+[lands]: Images/QGIS_Raster_SiteSuitability_Exercise/lands.png
+[reclassifytool]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassifytool.png
+[reclass2]: Images/QGIS_Raster_SiteSuitability_Exercise/reclass2.png
+[reclassify3]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassify3.png
+[reclassslope]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassslope.png
+[reclasswind1]: Images/QGIS_Raster_SiteSuitability_Exercise/reclasswind1.png
+[reclasswind2]: Images/QGIS_Raster_SiteSuitability_Exercise/reclasswind2.png
+[windreclass]: Images/QGIS_Raster_SiteSuitability_Exercise/windreclass.png
+[distreclass2]: Images/QGIS_Raster_SiteSuitability_Exercise/distreclass2.png
+[Roadreclass]: Images/QGIS_Raster_SiteSuitability_Exercise/Roadreclass.png
+[rastercalculator]: Images/QGIS_Raster_SiteSuitability_Exercise/rastercalculator.png
+[calc]: Images/QGIS_Raster_SiteSuitability_Exercise/calc.png
+[finavValue]: Images/QGIS_Raster_SiteSuitability_Exercise/finavValue.png
 
 
