@@ -28,32 +28,51 @@ Here is the output:
 
 We will also look for areas that have high wind speeds.  Add USWind.shp to the map.  This is a vector layer of points representing US cities, attribute information average includes wind speed for each month as well as annual averages.  You can play with the visualizations to explore the data.  Here I am using the layer properties to symbolize the annual averages: 
 
+![wind1]
 
 However, we need to convert this to a raster using an interpolation strategy.  We will use Inverse Distance Weighted as the interpolation method. Open IDW from the interpolation tools:
 
+![idw]
+
 We will use ANN as the value field and make sure to use the extant slope raster as the setting for output Extent. We will also use the same cell size – 933.154420 (which you can find in the slope layer properties. Save output as USAnnWind:
+
+![idw2]
  
-The output:
+The output
+
+![idw3]
 
 
 ## Distance analysis
 
 Next you will measure distance to transmission lines.  Add USTransLines.shp:
 
+![idw]
+
 
 This is a vector dataset of lines representing major electrical transmission lines in the US.  Because the distance raster tool in QGIS requires a raster input, we will convert ths to a raster layer using the “rasterize” tool.  Burn in a value of 1 (0 fo no data), use the same extent and raster units.  Save the output as “TransitLines”:
 
+![rasterize]
 
 The output is a raster layer of the lines:
 
+![transitlines2]
 
 Open the Proximity tool:
 
+![prox1]
+
 Use “1” as the pixel value to be a target pixel.  Save the output as TransDist:
+
+![TransDist]
 
 The Output:
 
+![distc]
+
 Finally, we will use the availability of federally owned lands. Add USlands to QGIS:
+
+![lands]
 
 This layer is already in the right format and resolution, so you do not need to do any analysis.  It is a raster representing federally owned lands.  The data has already been “classified” for use in this analysis.  We are only interested in areas federally owned and those areas have a value of “10.”  Non owned areas have a value of “1.”  In our site analysis, higher values will represent better suitability and we will use a 1-10 scale for each input.
 
@@ -61,27 +80,45 @@ The inputs for our model are now ready, but there is a problem – the values fo
 
 To do this we will use the “Reclassify by table” tool
 
+![reclassifytool]
 
 Click on the reclassify table button:
 
+![reclass2]
+
 And create a table using these values (these represent an approximate quiltile classification of the data):
+
+![reclassify3]
 
 Save the slope as slope_reclass.
 
 The output:
 
+![reclassslope]
+
 Do the same process with the interpolated wind speeds using these values.  Save the wind speed as Wind_reclass:
 
+![reclasswind1]
+
+![reclasswind2]
+
+![windreclass]
 
 Finally, reclassify the distance to transit lines. Again, reverse the values so that the higher values reflect the shorter distances.  Save as Dist_reclass:
 
+![distreclass2]
+
+![Roadreclass]
 
 ## Weighted Measures
 
 Finally we will take a weighted measurement of all of these datasets for out final site analysis.  In QGIS we will use the Raster Calculator for this:
 
+![rastercalculator]
 
 Add the four reclass rasters and apply weights as you see appropriate.  Here, I have doubled the weight of both Slope_reclass and Wind_reclass because I suspect that the population and transmission lines datasets will be highly correlated.  Save the output as FinalValue:
+
+![calc]
 
 In this case, output values range from 5 to 37:
 
