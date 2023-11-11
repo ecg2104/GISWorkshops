@@ -87,32 +87,32 @@ In this case, output values range from 5 to 37:
 
 ![finavValue]
 
-[Elevation]: Images/QGIS_Raster_SiteSuitability_Exercise/Elevation.png
-[sloptool]: Images/QGIS_Raster_SiteSuitability_Exercise/sloptool.png
-[slope2]: Images/QGIS_Raster_SiteSuitability_Exercise/slope2.png
-[slope3]: Images/QGIS_Raster_SiteSuitability_Exercise/slope3.png
-[wind1]: Images/QGIS_Raster_SiteSuitability_Exercise/wind1.png
-[idw]: Images/QGIS_Raster_SiteSuitability_Exercise/idw.png
-[idw2]: Images/QGIS_Raster_SiteSuitability_Exercise/idw2.png
-[idw3]: Images/QGIS_Raster_SiteSuitability_Exercise/idw3.png
-[transitlines]: Images/QGIS_Raster_SiteSuitability_Exercise/transitlines.png
-[rasterize]: Images/QGIS_Raster_SiteSuitability_Exercise/rasterize.png
-[transitlines2]: Images/QGIS_Raster_SiteSuitability_Exercise/transitlines2.png
-[prox1]: Images/QGIS_Raster_SiteSuitability_Exercise/prox1.png
-[TransDist]: Images/QGIS_Raster_SiteSuitability_Exercise/TransDist.png
-[distc]: Images/QGIS_Raster_SiteSuitability_Exercise/distc.png
-[lands]: Images/QGIS_Raster_SiteSuitability_Exercise/lands.png
-[reclassifytool]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassifytool.png
-[reclass2]: Images/QGIS_Raster_SiteSuitability_Exercise/reclass2.png
-[reclassify3]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassify3.png
-[reclassslope]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassslope.png
-[reclasswind1]: Images/QGIS_Raster_SiteSuitability_Exercise/reclasswind1.png
-[reclasswind2]: Images/QGIS_Raster_SiteSuitability_Exercise/reclasswind2.png
-[windreclass]: Images/QGIS_Raster_SiteSuitability_Exercise/windreclass.png
-[distreclass2]: Images/QGIS_Raster_SiteSuitability_Exercise/distreclass2.png
-[Roadreclass]: Images/QGIS_Raster_SiteSuitability_Exercise/Roadreclass.png
-[rastercalculator]: Images/QGIS_Raster_SiteSuitability_Exercise/rastercalculator.png
-[calc]: Images/QGIS_Raster_SiteSuitability_Exercise/calc.png
-[finavValue]: Images/QGIS_Raster_SiteSuitability_Exercise/finavValue.png
+[Elevation]: Images/QGIS_Raster_SiteSuitability_Exercise/Elevation.PNG
+[sloptool]: Images/QGIS_Raster_SiteSuitability_Exercise/sloptool.PNG
+[slope2]: Images/QGIS_Raster_SiteSuitability_Exercise/slope2.PNG
+[slope3]: Images/QGIS_Raster_SiteSuitability_Exercise/slope3.PNG
+[wind1]: Images/QGIS_Raster_SiteSuitability_Exercise/wind1.PNG
+[idw]: Images/QGIS_Raster_SiteSuitability_Exercise/idw.PNG
+[idw2]: Images/QGIS_Raster_SiteSuitability_Exercise/idw2.PNG
+[idw3]: Images/QGIS_Raster_SiteSuitability_Exercise/idw3.PNG
+[transitlines]: Images/QGIS_Raster_SiteSuitability_Exercise/transitlines.PNG
+[rasterize]: Images/QGIS_Raster_SiteSuitability_Exercise/rasterize.PNG
+[transitlines2]: Images/QGIS_Raster_SiteSuitability_Exercise/transitlines2.PNG
+[prox1]: Images/QGIS_Raster_SiteSuitability_Exercise/prox1.PNG
+[TransDist]: Images/QGIS_Raster_SiteSuitability_Exercise/TransDist.PNG
+[distc]: Images/QGIS_Raster_SiteSuitability_Exercise/distc.PNG
+[lands]: Images/QGIS_Raster_SiteSuitability_Exercise/lands.PNG
+[reclassifytool]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassifytool.PNG
+[reclass2]: Images/QGIS_Raster_SiteSuitability_Exercise/reclass2.PNG
+[reclassify3]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassify3.PNG
+[reclassslope]: Images/QGIS_Raster_SiteSuitability_Exercise/reclassslope.PNG
+[reclasswind1]: Images/QGIS_Raster_SiteSuitability_Exercise/reclasswind1.PNG
+[reclasswind2]: Images/QGIS_Raster_SiteSuitability_Exercise/reclasswind2.PNG
+[windreclass]: Images/QGIS_Raster_SiteSuitability_Exercise/windreclass.PNG
+[distreclass2]: Images/QGIS_Raster_SiteSuitability_Exercise/distreclass2.PNG
+[Roadreclass]: Images/QGIS_Raster_SiteSuitability_Exercise/Roadreclass.PNG
+[rastercalculator]: Images/QGIS_Raster_SiteSuitability_Exercise/rastercalculator.PNG
+[calc]: Images/QGIS_Raster_SiteSuitability_Exercise/calc.PNG
+[finavValue]: Images/QGIS_Raster_SiteSuitability_Exercise/finavValue.PNG
 
 
